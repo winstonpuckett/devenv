@@ -35,3 +35,6 @@ sudo apt-get update
 ## js
 iin_apt nodejs
 iin_apt npm
+
+## rust
+iin_apt cargo
