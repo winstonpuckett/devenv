@@ -38,3 +38,6 @@ iin_apt npm
 
 ## rust
 iin_apt cargo
+
+# tools
+cargo install tokei
