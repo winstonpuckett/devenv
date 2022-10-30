@@ -33,7 +33,14 @@ iin_snap () {
 }
 
 iin_cargo () {
-	local INSTALLED=$(ls ~/.cargo/bin | grep $1)
+	if [[ -n "$2" ]]
+	then 
+		# Use the provided alias if set.
+		local INSTALLED=$(ls ~/.cargo/bin | grep $2)
+	else
+		# Use the package name as the alias.
+		local INSTALLED=$(ls ~/.cargo/bin | grep $1)
+	fi
 	if [ -n "$INSTALLED" ];
 	then echo $1 is installed.
 	else 

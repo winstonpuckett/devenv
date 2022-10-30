@@ -25,3 +25,4 @@ iin_apt npm
 
 ## tools
 iin_cargo tokei
+iin_cargo lucifer-testing lucifer
