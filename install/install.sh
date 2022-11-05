@@ -14,7 +14,7 @@ echo done updating package repositories.
 # install stuff
 
 ## editors
-iin_aptget neovim
+iin_snap nvim --beta --classic
 
 ## js
 iin_apt nodejs

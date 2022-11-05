@@ -23,12 +23,12 @@ iin_aptget () {
 }
 
 iin_snap () {
-	local INSTALLED=$(dpkg-query -W --showformat='${Status}\n' $1|grep "install ok installed")
+	local INSTALLED=$(snap list $1|grep $1)
 	if [ -n "$INSTALLED" ];
 	then echo $1 is installed.
 	else 
 		echo installing $1
-		sudo snap install $1
+		sudo snap install $@
 	fi
 }
 
