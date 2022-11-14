@@ -24,7 +24,7 @@ iin_apt npm
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ## dotnet
-iin_snap dotnet-sdk --classic
+iin_aptget dotnet6 
 
 ## tools
 iin_cargo tokei
