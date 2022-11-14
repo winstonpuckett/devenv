@@ -23,6 +23,10 @@ iin_apt npm
 ## rust (not yet idempotent)
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+## dotnet
+iin_snap dotnet-sdk --classic
+
 ## tools
 iin_cargo tokei
 iin_cargo lucifer-testing lucifer
+
