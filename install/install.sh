@@ -16,9 +16,10 @@ echo done updating package repositories.
 ## editors
 iin_snap nvim --beta --classic
 
-## js
-iin_apt nodejs
-iin_apt npm
+## js (not yet idempotent)
+#wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+#iin_aptget nodejs
+#iin_aptget npm
 
 ## rust (not yet idempotent)
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
