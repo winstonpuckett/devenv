@@ -22,6 +22,15 @@ iin_aptget () {
 	fi
 }
 
+iin_cargo() {	
+	local INSTALLED=$(dpkg-query -W --showformat='${Status}\n' cargo|grep "install ok installed")
+	if [ -n "$INSTALLED" ];
+	then echo cargo is installed.
+	else 
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+	fi
+}
+
 # prepare environment
 
 sudo apt update
@@ -37,7 +46,7 @@ iin_apt nodejs
 iin_apt npm
 
 ## rust
-iin_apt cargo
+iin_cargo
 
 # tools
 cargo install tokei
