@@ -6,3 +6,12 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+alias vim='nvim'
+
+# git
+gca() {
+	git add .
+	git commit -m$1
+	git push
+	git status
+}
