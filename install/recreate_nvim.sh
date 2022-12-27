@@ -11,4 +11,6 @@ rm -rf ~/.config/nvim
 THIS_FILEPATH=$(dirname $0)
 NVIM_FOLDER=$(realpath $THIS_FILEPATH/../nvim)
 
-cp -r $NVIM_FOLDER ~/.config
+mkdir ~/.config/nvim
+echo "package.path = package.path .. \";$NVIM_FOLDER/?.lua\"" > ~/.config/nvim/init.lua
+echo "require(\"bob\")" >> ~/.config/nvim/init.lua
