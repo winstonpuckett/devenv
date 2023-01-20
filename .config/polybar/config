@@ -12,10 +12,10 @@ disabled = ${colors.overlay0}
 
 [bar/example]
 width = 100%
-height = 24pt
+height = 60pt
 radius = 6
 
-; dpi = 96
+dpi = 250
 
 background = ${colors.background}
 foreground = ${colors.foreground}
