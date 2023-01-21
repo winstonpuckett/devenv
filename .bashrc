@@ -133,3 +133,4 @@ alias gs='git status'
 alias gfs='git fetch && git status'
 alias gcp='git --chery-pick'
 alias vim='nvim'
+source "$HOME/.cargo/env"
