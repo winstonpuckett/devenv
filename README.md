@@ -27,3 +27,4 @@ git clone https://github.com/winstonpuckett/devenv.git
 - [catppuccin](https://github.com/catppuccin/catppuccin)
 - [nerd fonts](https://www.nerdfonts.com/)
 - [catppuccin wallpapers](https://github.com/catppuccin/wallpapers)
+- [catppuccin firefox theme](https://github.com/catppuccin/firefox)
