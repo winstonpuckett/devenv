@@ -22,7 +22,7 @@ git clone https://github.com/winstonpuckett/devenv.git
 - [picom for transparent terminals.](https://github.com/yshui/picom)
 - [kitty for terminal.](https://sw.kovidgoyal.net/kitty/)
 
-## sources / thanks
+# sources / thanks
 
 - [catppuccin](https://github.com/catppuccin/catppuccin)
 - [nerd fonts](https://www.nerdfonts.com/)
