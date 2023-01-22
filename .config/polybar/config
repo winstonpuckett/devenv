@@ -20,7 +20,7 @@ dpi = 250
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 0pt
+line-size = 3pt
 
 border-left = 20%
 border-bottom = 15

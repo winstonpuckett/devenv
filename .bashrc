@@ -127,7 +127,7 @@ function print_branch_name() {
     [ "$BRANCH" ] && echo " | $BRANCH"
 }
 
-export PS1="\n\[\e[35m\]\w\`print_exit_code\`\`print_branch_name\`\[\e[m\]\n\[\e[35m\]❯\[\e[m\] "
+export PS1="\n\[\e[35m\]\w\`print_exit_code\`\`print_branch_name\` | \D{%H:%M:%S}\[\e[m\]\n\[\e[35m\]❯\[\e[m\] "
 
 alias gs='git status'
 alias gfs='git fetch && git status'
