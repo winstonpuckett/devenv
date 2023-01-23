@@ -11,7 +11,17 @@ You should probably just use this for inspiration.
 ```
 cd ~
 mv .bashrc .bashrc_backup
-git clone https://github.com/winstonpuckett/devenv.git
+git config --global init.defaultBranch main
+git init
+git remote add origin https://github.com/winstonpuckett/devenv.git
+git pull origin main
+```
+
+## source things
+
+```
+cd ~
+source .bashrc
 ```
 
 ## get the programs
