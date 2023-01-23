@@ -15,6 +15,7 @@ git config --global init.defaultBranch main
 git init
 git remote add origin https://github.com/winstonpuckett/devenv.git
 git pull origin main
+git branch --set-upstream-to=origin/main
 ```
 
 ## source things
